@@ -231,6 +231,7 @@ header {
    }
 
    @media only screen and (max-width: 950px) {
+    
     .hamburger {
         display: block;
         cursor: pointer;
@@ -333,6 +334,7 @@ header {
 }
     @media only screen and (max-width: 850px) {
     .mural{
+        min-width: 660px;
         height: 80px;
         transition: 0.5s;
     }
@@ -382,6 +384,7 @@ header {
 }
     @media only screen and (max-width: 660px) {
     .mural{
+        min-width: 580px;
         height: 70px;
         transition: 0.5s;
     }
