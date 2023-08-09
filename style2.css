@@ -24,9 +24,6 @@
   margin: 15% auto auto 2%;
 }
 
-.ladotime02 {
-  background-color: var(--nav-bar-a-color-border-solid);
-}
 .quadra {
   position: relative;
 }
@@ -36,6 +33,21 @@
   height: 4vw;
   border-radius: 50%;
   background-color: var(--nav-bar-a-color);
+  display: flex;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.5s ease, top 0.5s ease;
+}
+.bolinha2 {
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: var(--nav-bar-a-color-border-solid);
   display: flex;
   color: white;
   font-size: 2vw;
