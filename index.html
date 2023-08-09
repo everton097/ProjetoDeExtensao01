@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link id="style" rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="style" rel="stylesheet" href="style.css" />
+    <link id="style" rel="stylesheet" href="style2.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo"><a href="/index.html">volleyball</a></div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/jogos.html">Jogos</a></li>
-                <li><a href="/contato.html">Contato</a></li>
-                <button class="button">Login</button>
-            </ul>
-        </nav>
+      <div class="logo"><a href="/index.html">volleyball</a></div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/jogos.html">Jogos</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+          <button class="button">Login</button>
+        </ul>
+      </nav>
     </header>
 
     <section>
-        <div class="mural">
-            <div class="time01">
-                <img class="logotime01"src="/src/VoleiBrasil.png" alt="logotime1">
-                <p class="nometime01">VoleiBrasil</p>
-            </div>
-            <div class="score" id="counter">
-                <img id="bolavolei01" class="bolavolei01" src="/src/bola.png">
-                <div class="controlTime01">
-                    <button id="plusTime01" class="count-button">+</button>
-                    <button id="minusTime01" class="count-button">-</button>
-                </div>
-                <span id="valueTime01" class="pontostime01">00</span>
-                <p class="vs">X</p>
-                <span id="valueTime02" class="pontostime02">00</span>
-                <div class="controlTime02">
-                    <button id="plusTime02" class="count-button">+</button>
-                    <button id="minusTime02" class="count-button">-</button>
-                </div>
-                <img id="bolavolei02" class="bolavolei02"src="/src/bola.png">
-            </div>
-            <div class="time02">
-                <p class="nometime02">VoleiBrasil</p>
-                <img class="logotime02"src="/src/VoleiBrasil.png" alt="logotime1">
-            </div>
+      <div class="mural">
+        <div class="time01">
+          <img class="logotime01" src="/src/VoleiBrasil.png" alt="logotime1" />
+          <p class="nometime01">VoleiBrasil</p>
         </div>
+        <div class="score" id="counter">
+          <img id="bolavolei01" class="bolavolei01" src="/src/bola.png" />
+          <div class="controlTime01">
+            <button id="plusTime01" class="count-button">+</button>
+            <button id="minusTime01" class="count-button">-</button>
+          </div>
+          <span id="valueTime01" class="pontostime01">00</span>
+          <p class="vs">X</p>
+          <span id="valueTime02" class="pontostime02">00</span>
+          <div class="controlTime02">
+            <button id="plusTime02" class="count-button">+</button>
+            <button id="minusTime02" class="count-button">-</button>
+          </div>
+          <img id="bolavolei02" class="bolavolei02" src="/src/bola.png" />
+        </div>
+        <div class="time02">
+          <p class="nometime02">VoleiBrasil</p>
+          <img class="logotime02" src="/src/VoleiBrasil.png" alt="logotime1" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionQuadraVolei">
+      <div class="quadraVolei">
+        <div class="ballplayer">
+          <div class="jogadoresTime01 quadra">
+            <div class="bolinha jogador1">01</div>
+            <div class="bolinha jogador2">02</div>
+            <div class="bolinha jogador3">03</div>
+            <div class="bolinha jogador4">04</div>
+            <div class="bolinha jogador5">05</div>
+            <div class="bolinha jogador6">06</div>
+          </div>
+        </div>
+        <div class="ballplayer">
+          <div class="jogadoresTime02 quadra">
+            <div class="bolinha jogador1t2">01</div>
+            <div class="bolinha jogador2t2">02</div>
+            <div class="bolinha jogador3t2">03</div>
+            <div class="bolinha jogador4t2">04</div>
+            <div class="bolinha jogador5t2">05</div>
+            <div class="bolinha jogador6t2">06</div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="script.js"></script>
-</body>
+    <script src="script2.js"></script>
+  </body>
 </html>
