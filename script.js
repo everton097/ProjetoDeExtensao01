@@ -16,9 +16,8 @@ const valueTime01 = document.getElementById("valueTime01");
 const plusButtonTime01 = document.getElementById("plusTime01");
 const minusButtonTime01 = document.getElementById("minusTime01");
 const bola01 = document.getElementById("bolavolei01").style.opacity;
-let controlet1;
-let controlet2;
 
+let controlet1, controlet2;
 const updateValueTime01 = () => {
   if (countTime01 <= 9) {
     valueTime01.innerHTML = "0" + countTime01;
